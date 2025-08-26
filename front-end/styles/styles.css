@@ -1,0 +1,73 @@
+/* Cores do projeto */
+:root {
+    --green: #006F60;
+    --blue: #08182C;
+    --white: #FFFFFF;
+    --light-gray: #F8F9FA;
+    --medium-gray: #6C757D;
+    --dark-gray: #343A40;
+    --red: #DC3545;
+    --yellow: #FFC107;
+}
+
+/* Poppins Font Family */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../src/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../src/fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../src/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../src/fonts/Poppins/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Prompt Font Family */
+@font-face {
+    font-family: 'Prompt';
+    src: url('../src/fonts/Prompt/Prompt-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('../src/fonts/Prompt/Prompt-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('../src/fonts/Prompt/Prompt-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('../src/fonts/Prompt/Prompt-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+}
