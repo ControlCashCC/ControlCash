@@ -1,6 +1,7 @@
 /* Cores do projeto */
 :root {
     --green: #006F60;
+    --light-green: #46F9AD;
     --blue: #08182C;
     --white: #FFFFFF;
     --light-gray: #F8F9FA;
@@ -68,6 +69,29 @@
     font-style: italic;
 }
 
-body {
+html, body {
+    height: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+a, p {
+    font-family: "Prompt", sans-serif;
+    color: black;
+    text-decoration: none;
 }

@@ -1,5 +1,5 @@
 # ControlCash
 ControlCash project repository.
 
-## Branch Dev
-Branch de desenvolvimento.
+## Branch Front-End
+Branch de desenvolvimento do Front-End.
