@@ -1,7 +1,7 @@
 // Função para exportar o arquivo CSS
 export function importStyle(path) {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
     link.href = path;
     document.head.appendChild(link);
 }

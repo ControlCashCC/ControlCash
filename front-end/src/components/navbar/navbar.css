@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 4vh 2vh 4vh;
+    border-bottom: 2vh solid var(--light-green);
+}
+
+.nav-right {
+    display: flex;
+    gap: 2vh;
+}
