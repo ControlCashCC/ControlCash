@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 4vh 0vh 4vh;
+    border-top: 2vh solid var(--light-green);
+}
+
+.footer-center {
+    display: contents;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.email-link:hover {
+    color: var(--light-green);
+}
